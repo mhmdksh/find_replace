@@ -1,10 +1,10 @@
 #!/bin/bash
 ## Version		1.0
 ## Written By	Mohamad Shehab
-#### Specify the main directory of the Radar Files ####
+#### Specify the main directory to be searched ####
 scanned_dir="/root/for_scanning"
 
-#### Specify the destination directory for the Radar Files ####
+#### Specify the destination directory found Files ####
 dest="/root/new_dir"
 
 #### Folder to search for insinde the scanned directory
