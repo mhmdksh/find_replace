@@ -11,7 +11,7 @@ dest="/root/new_dir"
 scan="whatever_folder"
 
 #### Search for the files and in the scanned folder and copy the new found .xml and .jpg files into the destinations directory ####
-for src in $(find $dir -type d -name "$scan")
+for src in $(find $dir -type d -name "$(scan)")
 do
         rsync --ignore-existing --include="*/" --include='*.xml' --include='*.jpg' --exclude="*" -avz $src $dest
 done
